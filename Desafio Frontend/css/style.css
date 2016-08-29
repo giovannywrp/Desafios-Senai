@@ -1,0 +1,424 @@
+/* Regras Comuns */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-weight: 300;
+    color: #799096;
+}
+
+a{
+    color: #799096;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f7ffff;
+}
+
+.white{
+    background-color: #f7ffff;
+}
+
+.lightWhite{
+    background-color: #fafafa;
+}
+
+.salmao{
+    background-color: #ff4d4d;
+}
+
+.blue{
+    background-color: #0071bf;
+}
+
+.lightBlue{
+    background-color: #01ace2;
+}
+
+
+.orange{
+    background-color: #ff4b1e;
+}
+
+.lightOrange{
+    background-color: #ff651f;
+}
+
+.yellow{
+    background-color: #fdc800;
+}
+
+.lightYellow{
+    background-color: #ffe001;
+}
+
+
+.logo {
+    float: left;
+    margin: 0.2em auto;
+    width: 25.315789%;
+}
+
+/* fim de comuns */
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    background-color: #1b2026;
+}
+
+/* Header */
+
+.header {
+    width: 59.36842105263158%;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 74.468085106383%; /*840px / 1128px */
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu li {
+    font-size: 20px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: inline-block;
+}
+
+/* fim de header */
+
+/* footer */
+
+.footer {
+    width: 59.36842105263158%;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.footer p {
+    float: right;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+/* fim footer */
+
+/* conteudo */
+
+/* salmao */
+
+.wrapper {
+    width: 59.36842105263158%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.wrapper.salmao img{
+    float: right;
+    width: 31.91489361702128%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.wrapper.salmao section{
+    float: left;
+    margin-top: 5em;
+}
+
+.wrapper.salmao h1{
+    color: #f7ffff;
+    margin-bottom: 0.2em;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.wrapper.salmao p{
+    color: #f7ffff;
+    margin: 0 0 0 0;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/* salmao */
+
+/* colunas */
+
+.coluna {
+    display: inline-block;
+    width: 31.404255%;
+    margin-right: 2.127659574468%; /* 24 / 1128px */
+    margin-top: 2.127659574468%; /* 24 / 1128px */
+}
+
+.coluna:last-child{
+    margin-right: 0;
+}
+
+.coluna img{
+    width: 97.553191%;
+}
+
+.coluna h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #799096;
+}
+
+.coluna p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+section.wrapper h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #799096;
+}
+
+section.wrapper p{
+    font-size: 20px;
+}
+
+/* colunas */
+
+/* sobre web */
+
+.wrapper.lightWhite {
+    font-size: 20px;
+}
+
+.wrapper.lightWhite h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #799096;
+}
+
+/* sobre web */
+
+/* Tabela */
+
+.tabela{
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    margin-bottom: 8.12766%;
+}
+
+.tabela h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #f7ffff;
+}
+
+.tabela p{
+    font-size: 20px;
+    margin-top: 2.5em;
+    font-weight: 300;
+    color: #f7ffff;
+}
+
+.tabela p:last-child{
+    margin-bottom: 3em;
+}
+
+.tabela a {
+
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #f7ffff;
+}
+
+.tabela a:hover{
+    background-color: #f7ffff;
+    color: #799096;
+}
+
+.tabela td{
+    width: 31.404255%;
+}
+
+.tabela th p{
+    margin-top: -0.8em;
+}
+
+/* Tabela */
+
+/* formulario */
+
+.wrapper.blue h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #f7ffff;
+}
+
+.formulario{
+    margin-bottom: 5em;
+}
+
+.formulario input{
+    width: 42.5531914893617%;
+    height: 38px;
+    margin-top: 0.5em;
+    display: block;
+    font-size: 25px;
+    color: #f7ffff;
+    background-color: #0065ab;
+    font-weight: 300;
+
+}
+
+.formulario label{
+    display: block;
+    margin-top: 0.5em;
+    font-size: 25px;
+    color: #f7ffff;
+
+}
+
+.formulario textarea{
+    width: 42.5531914893617%;
+    height: 200px;
+    margin-top: 0.5em;
+    display: block;
+    font-size: 25px;
+    color: #f7ffff;
+    background-color: #0065ab;
+    font-weight: 300;
+}
+
+.formulario button {
+    width: 15.163121%;
+    border-style: solid;
+    border-radius: 18px;
+    padding: 1px;
+    font-size: 26px;
+    font-weight: 300;
+    color: #f7ffff;
+    background-color: #0065ab;
+}
+
+.formulario button:hover{
+    background-color: #f7ffff;
+    color: #799096;
+}
+
+/* formulario */
+
+/* ==========================================================================
+   Media Queries / Design Responsivo
+   ========================================================================== */
+
+
+@media screen and (max-width: 768px) {
+
+    .wrapper.salmao img{
+        width: 100%;
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+
+    .wrapper.salmao section{
+        margin-bottom: 3em;
+    }
+
+    .menu li {
+        margin-left: 0.5em;
+    }
+
+    .coluna {
+        width: 42%;
+        margin: 2.4em 9% 2.4em 0;
+    }
+
+    .coluna:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .logo {
+        margin-top: 1.2em;
+    }
+
+    .tabela p{
+        margin-top: 1.0em;
+    }
+
+    .tabela p:last-child {
+        margin-bottom: 1em;
+    }
+
+    .formulario input{
+        width: 83.553191%;
+    }
+
+    .formulario textarea{
+        width: 83.553191%;
+    }
+
+    .formulario button{
+        width: 28.163121%;
+        padding: 3px;
+        font-size: 26px;
+    }
+
+    .footer p{
+        font-size: 16px;
+        margin-top: 0.8em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .menu {
+        width: 100%;
+    }
+
+    .header{
+        height: 74px;
+    }
+
+    .menu ul {
+        float: left;
+        font-size: 0.8em;
+    }
+
+    .menu li:first-child {
+        margin-left: 0;
+    }
+
+    .footer p{
+        font-size: 13px;
+        margin-top: 1em ;
+    }
+
+}
+
+
