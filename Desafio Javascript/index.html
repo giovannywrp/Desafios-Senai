@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html lang="pt-br">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" type="text/css" href="assets/main.css">
+      <title>Desafio FrontEnd - TodoList</title>
+  </head>
+  <body>
+    <!-- APP -->
+  	<div id="app">
+      <!-- NAV -->
+  		<nav>
+  			<ul class="tabs">
+  				<li id="tabNaoFeitas" class="active"><a href="#" onclick="mudarTab('tabNaoFeitas', 'naoFeitas', 'tabFeitas', 'feitas')"  data-tabindex="0" title="NÃO FEITAS">NÃO FEITAS</a></li>
+  				<li id="tabFeitas" class="" ><a href="#" onclick="mudarTab('tabFeitas', 'feitas', 'tabNaoFeitas', 'naoFeitas')"  data-tabindex="1" title="FEITAS">FEITAS</a></li>
+  			</ul>
+  		</nav>
+      <!-- END NAV -->
+
+      <!-- CONTEUDOTAB -->
+  		<div id="conteudoTab">
+        <!-- NAOFEITAS -->
+  			<section id="naoFeitas" class="active">
+  				<ul id="ulnaoFeitas" >
+                    <!-- <li>
+                      <label>
+                        <input type="checkbox" name="tarefas[1][feito]" data-index="1" value="2">
+                        <p>
+                          2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        </p>
+                        <a href="#" title="×" data-index="1">×</a>
+                      </label>
+                    </li> !-->
+                </ul>
+  				<form id="formAdicionarTarefa" action="#" method="get" accept-charset="utf-8">
+  					<textarea name="texto" onkeydown="contarLetras(this, 'contador', '140')" onkeyup="contarLetras(this, 'contador', '140')" placeholder="Insira uma tarefa"></textarea>
+  					<button onclick="escreverJSON()" type="reset" >Adicionar</button>
+  					<span id="erro"></span>
+  					<span id="contador">140</span>
+  				</form>
+  			</section>
+        <!-- END NAOFEITAS -->
+
+        <!-- FEITAS -->
+  			<section id="feitas" class="">
+                <ul id="ulfeitas">
+                </ul>
+  			</section>
+        <!-- END FEITAS -->
+  		</div>
+      <!-- END CONTEUDOTAB -->
+
+  	</div>
+    <!-- END APP -->
+	<script src="script.js"></script>
+  </body>
+</html>
